@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment_no_06</title>
+    <script async src="script.js"></script>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Task 1: Prevent Form Submission</h2>
+
+    <form action="" id="myForm">
+      <label for="">Name:</label>
+      <input type="text" name="name" id="name" required />
+      <input type="submit" value="submit" />
+    </form>
+
+    <br /><br />
+
+    <h2>Task 2: Required Field Validation</h2>
+
+    <form action="" id="Form">
+      <label for="">Name:</label>
+      <input type="text" id="inputName_2" required />
+      <input type="submit" value="submit" />
+    </form>
+
+    <br /><br />
+
+    <h2>Task 3: Email Validation</h2>
+
+    <form action="" id="emailForm_3">
+      <input type="text" id="email" placeholder="enter your email" required />
+      <input type="submit" value="submit" />
+    </form>
+
+    <h2>Task 4: Password Length Check</h2>
+
+    <form action="" id="passwordChecked">
+      <label for="">Password:</label>
+      <input
+        type="password"
+        id="passwordInput"
+        placeholder="Enter your password"
+        required
+      />
+      <input type="submit" value="submit" />
+    </form>
+
+    <h2>Task 5: Show Error Message in DOM</h2>
+
+    <form id="Form_5">
+      <label for="userName">userName:</label>
+      <input type="text" id="userName" placeholder="please enter your name" />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <!-- Message Paragraph Below Form -->
+    <p id="errorMsg"></p>
+
+    <h2>Task 6: Reset Form</h2>
+
+    <form action="" id="reset">
+      <input type="text" class="input" />
+      <button class="resetBtn">Reset form</button>
+    </form>
+  </body>
+</html>
